@@ -1,0 +1,201 @@
+@media screen and (max-width:991px) {
+
+    .main-header{
+        overflow: initial;
+    }
+    .header-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        justify-content: center;
+        padding-block: 20px;
+    }
+    .header-links.active{
+        left: 0;
+    }
+    .header-links ul{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .toggle-btn{
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .hero-content{
+       margin-block: 80px;
+    }
+    .example-area a {
+        width: 48%;
+    }
+
+   
+}
+@media screen and (max-width:767px) {
+    .main-banner{
+        height: 10vh;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-content{
+        margin-top: -10px;
+        width: 100vw;
+       text-align: center;
+       h1{
+        width: 100%;
+       }
+    }
+    #primary-btn{
+        width: 95%;
+    }
+    .hero-img img{
+        width: 100%;
+       
+    }
+    .companies-section {
+        margin-top: -100px;
+    }
+    .compony-banner p{
+        font-size: 24px;
+    }
+    .compony-logo{
+        height: 11vh;
+        
+    }
+    .feature-parts{
+        a{
+            font-size: 1.2rem;
+        }
+    }
+    .feature-parts h2{
+        font-size: 25px;
+    }
+    .features-card{
+        max-width: 40%;
+        text-align: center;
+        gap: 10px;
+    }
+    .big-features1 , #second-big-feature{
+        flex-direction: column;
+        img{
+            width: 90%;
+        }
+    }
+    .example-header{
+        h2{
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+        a{
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    }
+    .sub-header{
+        font-size: 1.5rem;
+    }
+    .footer-section{
+        flex-direction: column;
+        justify-content: stretch;
+        text-align: center;
+        .footer-logo{
+            place-content: center;
+        }
+    }
+    .subfooter{
+        flex-direction: column;
+        justify-content: stretch;
+        text-align: center;
+    }
+    .footer-links ul li a{
+        font-size: 1.5rem;
+    }
+    .subfooter a{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:541px){
+    .companies-section {
+        padding-top: 1px;
+    }
+    .example-area a {
+        width: 46%;
+    }
+    .example-header{
+        h2{
+            font-size: 1.5rem;
+            padding-top: 20px;
+        }
+        a{
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+    }
+}
+@media screen and (max-width:435px){
+    .main-banner{
+        height: 12vh;
+    }
+    .hero-content{
+        width: 80vw;
+       text-align: center;
+       h1{
+        width: 100%;
+        font-size: 2rem;
+       }
+       p{
+        font-size: 1rem;
+       }
+    }
+    .compony-banner p{
+        font-size: 16px;
+    }
+    .compony-logo{
+       height: 8vh;
+    }
+    .feature-parts{
+        a{
+            font-size: 1rem;
+        }
+    }
+    .feature-parts h2{
+        font-size: 20px;
+    }
+    .features-card{
+        max-width: 100%;
+        text-align: center;
+        
+    }
+    .example-area a {
+        width: 100%;
+    }
+    .sub-contant{
+        .sub-header{
+            padding-top: 50px;
+            font-size: 1rem;
+        }
+        .sub-contant-btn{
+            margin-bottom: 50px;
+            font-size: 1rem;
+        }
+        .sub-desc{
+            margin-top: 20px;
+            font-size: 0.8rem;
+            align-items: center;
+        }
+    }
+    .footer-links ul li a{
+        font-size: 1rem;
+    }
+    .subfooter a{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:230px){
+    .main-banner{
+        height: 20vh;
+    }
+}
